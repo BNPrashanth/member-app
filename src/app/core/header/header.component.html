@@ -1,0 +1,18 @@
+<mat-toolbar color="primary" class="header-fixed">
+  <mat-toolbar-row>
+    <span>Member App</span>
+    <span class="spacer"></span>
+    <button mat-button *ngIf="isLoggedIn">
+      <span class="nav-btn">
+        Logout
+        <!-- <mat-icon class="icon">logout</mat-icon> -->
+      </span>
+    </button>
+    <button mat-button [routerLink]="['/login']" *ngIf="!isLoggedIn && router.url !== '/login'">
+      <span class="nav-btn">
+        Login
+        <!-- <mat-icon class="icon">sign_in_alt</mat-icon> -->
+      </span>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>

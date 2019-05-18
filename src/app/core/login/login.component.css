@@ -1,0 +1,21 @@
+.login-container {
+  position: relative;
+  width: 70%;
+  overflow: scroll;
+  background-color: whitesmoke;
+  margin: 50px auto;
+  padding: 2% 5%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.login-form {
+  padding: 10px 20px;
+}
+
+.login-icon {
+  margin: 0 10px;
+  padding-top: 12px;
+}
